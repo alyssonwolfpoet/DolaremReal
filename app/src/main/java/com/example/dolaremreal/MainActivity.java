@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     public  void  conveter(View view){
         double quantDolar = Double.parseDouble(editTextQtdDolar.getText().toString());
-        double valorDOlar = Double.parseDouble(editTextCotacao.getText().toString());
+        double valorDolar = Double.parseDouble(editTextCotacao.getText().toString());
 
-        double valorConvertido = valorDOlar * quantDolar;
+        double valorConvertido = valorDolar * quantDolar;
 
         DecimalFormat decimal = new DecimalFormat("0.00");
         String valorFormatado = decimal.format(valorConvertido);
